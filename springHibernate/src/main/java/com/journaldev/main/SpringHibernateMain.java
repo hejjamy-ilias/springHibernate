@@ -13,7 +13,7 @@ public class SpringHibernateMain {
 		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("spring.xml");
 		PersonDAO personDAO = ctx.getBean(PersonDAO.class);
 		
-		System.out.println("test ok");
+		System.out.println("test ok 1");
 		
 		Person person = new Person();
 		person.setName("Pankaj");
